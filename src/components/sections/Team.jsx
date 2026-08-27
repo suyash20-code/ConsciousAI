@@ -1,0 +1,3 @@
+import SectionHeading from '../ui/SectionHeading';
+import {team} from '../../data/siteData';
+export default function Team(){return <section id="team" className="section team-section"><SectionHeading eyebrow="THE DEVELOPERS" title="Meet the" highlight="team." description="Two developers. One goal: build useful, beautiful and intelligent software."/><div className="team-grid">{team.map((p,i)=><article className="person-card" key={p.name}><div className={`person-avatar person-avatar-${i}`}>{p.initials}</div><h3>{p.name}</h3><p className="person-role">{p.role}</p><p className="person-description">{p.description}</p><div className="person-skills">{p.skills.map(s=><span key={s}>{s}</span>)}</div></article>)}</div></section>}

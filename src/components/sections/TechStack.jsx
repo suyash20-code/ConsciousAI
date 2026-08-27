@@ -1,0 +1,3 @@
+import SectionHeading from '../ui/SectionHeading';
+import {techStack} from '../../data/siteData';
+export default function TechStack(){return <section id="tech-stack" className="section tech-section"><div className="tech-grid"><SectionHeading eyebrow="TOOLS WE USE" title="Technology that" highlight="moves ideas forward." description="We choose technologies based on the product—not the trend. Our stack helps us ship fast without compromising quality."/><div className="tech-list">{techStack.map((t,i)=><div className="tech-item" key={t}><span>{String(i+1).padStart(2,'0')}</span>{t}</div>)}</div></div></section>}
