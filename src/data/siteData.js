@@ -13,19 +13,20 @@ export const navigation = [
 ];
 export const stats = [
   { value: "2+", label: "Years Experience" },
-  { value: "10+", label: "Projects Completed" },
-  { value: "5+", label: "Happy Clients" },
+  { value: "2+", label: "Projects Completed" },
+  { value: "2+", label: "Happy Clients" },
   { value: "2", label: "Developers" },
 ];
 export const projects = [
   {
     id: 1,
     number: "01",
-    title: "AI Workspace Platform",
-    category: "Web Application",
+    title: "Goodgig Consultancy",
+    category: "Business Website",
     description:
-      "A modern workspace management platform for bookings, client management, seat availability, contracts and business operations.",
-    tags: ["React", "Next.js", "TypeScript", "Node.js"],
+      "A modern, responsive website for Goodgig Consultancy, a social impact consulting firm working across policy research, impact assessment, programme strategy and organisational development.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://www.goodgig.in/",
   },
   {
     id: 2,
@@ -75,23 +76,22 @@ export const techStack = [
   "MongoDB",
   "PostgreSQL",
   "REST API",
-  "Docker",
 ];
 export const team = [
   {
     initials: "SP",
     name: "Suyash Padwal",
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     description:
-      "Focused on modern frontend experiences, responsive interfaces and scalable React applications.",
-    skills: ["React", "Next.js", "React Native"],
+      "Focused on full-stack product development, modern frontend experiences, backend systems and scalable applications.",
+    skills: ["React", "Next.js", "React Native", "Node.js", "AI"],
   },
   {
     initials: "DJ",
     name: "Dhruv Jani",
     role: "Full Stack Developer",
     description:
-      "Focused on full-stack products, backend systems, APIs and practical AI integrations.",
-    skills: ["React", "Node.js", "AI"],
+      "Focused on full-stack products, backend systems, APIs and practical AI integrations using modern technologies.",
+    skills: ["React", "Node.js", "Java", "Spring Boot", "AI"],
   },
 ];

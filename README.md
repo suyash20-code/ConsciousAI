@@ -1,44 +1,21 @@
-# ConsciousAI React JS Portfolio
+# ConsciousAI Portfolio
 
-Component-based React + Vite portfolio for ConsciousAI.
+React JS + Vite + Tailwind CSS v4 + Bun.
 
-## Install and run
-
-```bash
-npm install
-npm run dev
-```
-
-## Production
+## Commands
 
 ```bash
-npm run build
-npm run preview
+bun install
+bun run dev
+bun run build
+bun run preview
 ```
 
 ## Structure
 
-```text
-src/
-├── components/
-│   ├── layout/
-│   │   ├── Navbar.jsx
-│   │   └── Footer.jsx
-│   ├── sections/
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Work.jsx
-│   │   ├── Services.jsx
-│   │   ├── TechStack.jsx
-│   │   ├── Team.jsx
-│   │   └── Contact.jsx
-│   └── ui/
-│       ├── Button.jsx
-│       └── SectionHeading.jsx
-├── data/siteData.js
-├── styles/global.css
-├── App.jsx
-└── main.jsx
-```
-
-All portfolio content is centralized in `src/data/siteData.js`.
+- `src/components/layout` — Navbar, Footer
+- `src/components/sections` — Hero, About, Work, Services, TechStack, Team, Contact
+- `src/components/ui` — reusable UI components
+- `src/data/siteData.js` — portfolio content
+- `src/styles` — global and Tailwind styles
+- `.gitignore` — Git exclusions
