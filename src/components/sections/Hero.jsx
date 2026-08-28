@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="hero-glow hero-glow-two" />
 
       <div className="hero-content">
-        <div className="hero-eyebrow font-inter">
+        <div className="hero-eyebrow font-montserrat">
           <Sparkles size={14} />
           AI-POWERED · WEB · MOBILE · SCALABLE
         </div>

@@ -1,3 +1,14 @@
+import { FaReact, FaJsSquare, FaNodeJs } from "react-icons/fa";
+
+import {
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiFirebase,
+  SiMongodb,
+  SiPostgresql,
+} from "react-icons/si";
+import { CodeXml } from "lucide-react";
 export const siteData = {
   name: "ConsciousAI",
   email: "hello@consciousai.dev",
@@ -31,11 +42,12 @@ export const projects = [
   {
     id: 2,
     number: "02",
-    title: "MindfulAI Mobile App",
-    category: "Mobile Application",
+    title: "HM Pharmaceuticals",
+    category: "Pharmaceutical Website",
     description:
-      "An AI-powered mobile experience with personalized recommendations, intelligent interactions and a clean cross-platform experience.",
-    tags: ["React Native", "Expo", "Firebase", "AI"],
+      "A modern pharmaceutical website for HM Pharmaceuticals, showcasing pediatric healthcare products, therapeutic categories, company information, quality standards, certifications and contact details.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://www.hmpharmaceuticalsllp.com/",
   },
 ];
 export const services = [
@@ -65,17 +77,50 @@ export const services = [
   },
 ];
 export const techStack = [
-  "React",
-  "Next.js",
-  "React Native",
-  "JavaScript",
-  "TypeScript",
-  "Node.js",
-  "Tailwind CSS",
-  "Firebase",
-  "MongoDB",
-  "PostgreSQL",
-  "REST API",
+  {
+    name: "React",
+    icon: FaReact,
+  },
+  {
+    name: "Next.js",
+    icon: SiNextdotjs,
+  },
+  {
+    name: "React Native",
+    icon: FaReact,
+  },
+  {
+    name: "JavaScript",
+    icon: FaJsSquare,
+  },
+  {
+    name: "TypeScript",
+    icon: SiTypescript,
+  },
+  {
+    name: "Node.js",
+    icon: FaNodeJs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: SiTailwindcss,
+  },
+  {
+    name: "Firebase",
+    icon: SiFirebase,
+  },
+  {
+    name: "MongoDB",
+    icon: SiMongodb,
+  },
+  {
+    name: "PostgreSQL",
+    icon: SiPostgresql,
+  },
+  {
+    name: "REST API",
+    icon: CodeXml,
+  },
 ];
 export const team = [
   {
@@ -85,6 +130,7 @@ export const team = [
     description:
       "Focused on full-stack product development, modern frontend experiences, backend systems and scalable applications.",
     skills: ["React", "Next.js", "React Native", "Node.js", "AI"],
+    image: "/suyash.jpeg",
   },
   {
     initials: "DJ",
@@ -93,5 +139,6 @@ export const team = [
     description:
       "Focused on full-stack products, backend systems, APIs and practical AI integrations using modern technologies.",
     skills: ["React", "Node.js", "Java", "Spring Boot", "AI"],
+    // image: "/dhruv.jpeg",
   },
 ];

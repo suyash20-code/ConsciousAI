@@ -99,14 +99,14 @@ export default function Work() {
               <div className="project-copy">
                 <span className="project-number">{p.number}</span>
 
-                <span className="project-category">
+                <span className="project-category font-montserrat">
                   {isMobile ? <Smartphone size={13} /> : <Code2 size={13} />}
                   {p.category}
                 </span>
 
-                <h3>{p.title}</h3>
+                <h3 className="font-montserrat">{p.title}</h3>
 
-                <p>{p.description}</p>
+                <p className="font-roboto">{p.description}</p>
 
                 <div className="project-tags">
                   {p.tags.map((t) => (

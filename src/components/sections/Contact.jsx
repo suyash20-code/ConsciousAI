@@ -1,3 +1,37 @@
-import {ArrowRight,Mail} from 'lucide-react';
-import {siteData} from '../../data/siteData';
-export default function Contact(){return <section id="contact" className="section contact-section"><div className="contact-card"><div><div className="section-eyebrow">HAVE AN IDEA?</div><h2>Let's build something<br/><span>amazing together.</span></h2><p>Have a project in mind? Tell us what you're building and we'll take it from there.</p></div><div className="contact-action"><a className="button button-dark" href={`mailto:${siteData.email}`}>Get In Touch <ArrowRight size={17}/></a><a className="contact-email" href={`mailto:${siteData.email}`}><Mail size={15}/>{siteData.email}</a></div></div></section>}
+import { ArrowRight, Mail } from "lucide-react";
+import { siteData } from "../../data/siteData";
+export default function Contact() {
+  return (
+    <section id="contact" className="section contact-section">
+      <div className="contact-card">
+        <div>
+          <div className="section-eyebrow">HAVE AN IDEA?</div>
+          <h2 className="font-montserrat">
+            Let's build something
+            <br />
+            <span className="font-montserrat">amazing together.</span>
+          </h2>
+          <p className="font-inter">
+            Have a project in mind? Tell us what you're building and we'll take
+            it from there.
+          </p>
+        </div>
+        <div className="contact-action">
+          <a
+            className="button button-dark font-montserrat"
+            href={`mailto:${siteData.email}`}
+          >
+            Get In Touch <ArrowRight size={17} />
+          </a>
+          <a
+            className="contact-email font-montserrat"
+            href={`mailto:${siteData.email}`}
+          >
+            <Mail size={15} />
+            {siteData.email}
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
