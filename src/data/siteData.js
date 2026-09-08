@@ -139,6 +139,6 @@ export const team = [
     description:
       "Focused on full-stack products, backend systems, APIs and practical AI integrations using modern technologies.",
     skills: ["React", "Node.js", "Java", "Spring Boot", "AI"],
-    // image: "/dhruv.jpeg",
+    image: "/dhruv.jpeg",
   },
 ];
